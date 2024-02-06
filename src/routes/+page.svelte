@@ -12,9 +12,14 @@
 				<h1 class="text-3xl font-bold">JOÃO MARCON</h1>
 				<span class="text-sm text-slate-700">São Paulo, Brasil</span>
 			</div>
-			<div class="flex flex-row-reverse items-center gap-4">
-				<a href="https://github.com/douttnus" target="_blank">
+			<div class="flex flex-row-reverse items-center gap-6">
+				<a class="flex items-center gap-2" href="https://masto.es/@douttnus" target="_blank">
+					<img class="w-6 cursor-pointer" src="https://cdn.iconscout.com/icon/free/png-256/free-mastodon-3521565-2944983.png" alt="Mastodon icon">
+					<label for="mastodon" class="text-sm cursor-pointer transition ease-in-out duration-300 hover:text-slate-900">Social</label>
+				</a>
+				<a class="flex items-center gap-2" href="https://github.com/douttnus" target="_blank">
 					<img class="w-6 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon">
+					<label for="fuente" class="text-sm cursor-pointer transition ease-in-out duration-300 hover:text-slate-900">Fuente</label>
 				</a>
 			</div>
 		</header>
@@ -24,10 +29,21 @@
 		</div>
 	</div>
 	<Actividades />
+	<div class="mt-4">
+		<h2 class="text-2xl mb-1 font-medium" style="font-weight: 600;">CONTACTO</h2>
+		<span class="text-sm">
+			Si está interesado en hablar conmigo, póngase en contacto a través de la red social
+			<a href="https://masto.es/@douttnus" target="_blank" class="font-medium cursor-pointer transition ease-in-out duration-300 hover:text-cyan-700">Mastodon</a>
+		</span>
+	</div>
+	<div class="border mt-6"></div>
 </main>
+<footer class="text-center mt-4">
+	<p>© 2024 João Marcon. Todos los derechos reservados.</p>
+</footer>
 
 <style>
 	main { max-width: 873px; }
-	h1 { font-family: 'Zilla Slab'; }
+	h1, h2 { font-family: 'Zilla Slab'; }
 	span, p { font-family: 'Fredoka'; }
 </style>
